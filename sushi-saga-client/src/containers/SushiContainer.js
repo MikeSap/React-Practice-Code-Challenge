@@ -11,7 +11,6 @@ const [beltSushi, setBeltSushi] = useState({
 })
 
 const handleSushi = () => {
-  // console.log("handleSushi")
   if(beltSushi.two === 100){
     setBeltSushi({
       one: 0,
